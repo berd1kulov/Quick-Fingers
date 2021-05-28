@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bbb.quickfingers">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/hamster"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/hamster"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuickFingers">
+        <service android:name=".BackgroundSound" android:enabled="true"/>
+        <activity android:name=".HighScoresActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".DifficultyMenuActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".GameActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

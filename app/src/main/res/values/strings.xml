@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Quick Fingers</string>
+
+    <string-array name="time_array">
+        <item>2 Minutes</item>
+        <item>1 Minute</item>
+        <item>30 Seconds</item>
+        <item>15 Seconds</item>
+    </string-array>
+
+    <string-array name="difficulty_array">
+        <item>Hard</item>
+        <item>Normal</item>
+        <item>Easy</item>
+    </string-array>
+</resources>
